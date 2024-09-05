@@ -3,6 +3,7 @@ body{
   align-items: center;
   width: 1920px;
   height: 1080px;
+  background-color: #d0d6d6c9;
   
 }
 
@@ -10,7 +11,7 @@ body{
   width: 1920px;
   height: 112px;
   text-align: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.733);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,8 +25,8 @@ nav {
 
 a {
   text-decoration: none;
-  color: #007bff;
-  font-size: 16px;
+  color: white;
+  font-size: 30px;
 }
 
 a:hover {
@@ -33,7 +34,7 @@ a:hover {
 }
 
 .contenedor_formato{
-  background-color: aqua;
+  background-color: rgba(138, 141, 145, 0.849);
   padding: 20px;
   display: flex;
   justify-content:center;
@@ -64,7 +65,7 @@ a:hover {
 }
 
 .button:hover {
-  background-color: #3ac5cd;
+  background-color: gray;
 }
 
 
@@ -81,15 +82,15 @@ a:hover {
 .contenedor_secciones {
   display: flex;
   justify-content: space-between; /* Espacio igual entre secciones */
-  width: 100%; /* O el ancho del contenedor padre */
-  padding: 5px;
+  padding: 1px;
   box-sizing: border-box;
 }
 
 .secciones {
    width: 475px;
    height: 248px;
-   background-color: rgb(160, 220, 174);
+   background-color: rgba(138, 141, 145, 0.849);
+   color: #fff; 
    display: flex;
    justify-content: center;
    font-size: 20px;
@@ -109,11 +110,12 @@ a:hover {
 .parrafo {
   width: 475px;
   height: 96px;
-  background-color: aqua;
+  background-color: rgba(138, 141, 145, 0.849);
   display: flex;
   justify-content: center;
   font-size: 20px;
   text-align: center; /* Centra el texto */
+  color: #fff; 
 
 }
 

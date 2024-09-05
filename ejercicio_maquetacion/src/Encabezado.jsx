@@ -6,7 +6,7 @@ function Encabezado() {
     return (
         <header className="encabezado">
             <nav>
-                <a className='home' href="#home">Home</a>
+                <a className='home' href="#home">Home - Welcome </a>
             </nav>
         </header>
     );
